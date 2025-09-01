@@ -1,7 +1,7 @@
 python-telegram-bot==20.7
 python-dotenv==1.0.0
 
-aiogram==3.0.0b7
+aiogram==3.10.0
 yt-dlp==2023.11.16
 requests==2.31.0
 
