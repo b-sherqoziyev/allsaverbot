@@ -1,9 +1,4 @@
 python-telegram-bot==20.7
+httpx==0.25.2
 python-dotenv==1.0.0
-
-aiogram==3.10.0
-yt-dlp==2023.11.16
-requests==2.31.0
-
-# asyncio va aiohttp'ni qo‘lda belgilash shart emas
-# pip o‘zi mos versiyani tanlaydi
+orjson==3.10.7
