@@ -1,0 +1,19 @@
+# Telegram Bot Dependencies
+python-telegram-bot==20.7  # Official Telegram Bot API wrapper (alternative to aiogram)
+python-dotenv==1.0.0       # Loads environment variables from .env file
+
+# Modern Telegram Bot Framework (primary)
+aiogram==3.0.0b7           # Asynchronous Telegram Bot framework (main dependency)
+aiohttp==3.8.5             # Async HTTP client required by aiogram
+
+# Video Download Functionality
+yt-dlp==2023.11.16         # YouTube and 1000+ sites video downloader
+requests==2.31.0           # Synchronous HTTP library for video streaming
+
+# Python Core Dependencies
+asyncio==3.4.3             # Async I/O framework (standard library backport)
+
+# Development Recommendations (uncomment if needed)
+# pytest==7.4.0           # Testing framework
+# types-requests==2.31.0  # Type stubs for requests
+# mypy==1.5.1             # Static type checker
