@@ -1,11 +1,6 @@
-FROM python:3.12-slim
+FROM python:3.11-slim
 
-# ffmpeg va build-tools (gcc, musl-dev, libc-dev) o‘rnatamiz
-RUN apt-get update && apt-get install -y \
-    ffmpeg \
-    gcc \
-    g++ \
-    make \
+RUN apt-get update && apt-get install -y ffmpeg gcc g++ make \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app

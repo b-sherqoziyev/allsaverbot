@@ -4,7 +4,7 @@ python-dotenv==1.0.0       # Loads environment variables from .env file
 
 # Modern Telegram Bot Framework (primary)
 aiogram==3.0.0b7           # Asynchronous Telegram Bot framework (main dependency)
-aiohttp==3.8.5             # Async HTTP client required by aiogram
+aiohttp==3.9.1           # Async HTTP client required by aiogram
 
 # Video Download Functionality
 yt-dlp==2023.11.16         # YouTube and 1000+ sites video downloader
